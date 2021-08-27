@@ -57,7 +57,7 @@ class TeachrController extends AbstractController
      * @Route("/rest/teachr/new", name="rest_teachr_new", methods={"GET","POST"})
      */
     
-    public function rest_new(Request $request): Response
+    public function rest_new(Request $request, StatisticsRepository $statisticsRepository): Response
     {
         $teachr = new Teachr();
         date_default_timezone_set('Europe/Paris');
@@ -67,6 +67,15 @@ class TeachrController extends AbstractController
 
         $entityManager = $this->getDoctrine()->getManager();
         $entityManager->persist($teachr);
+        $entityManager->flush();
+
+        // récupéraion du current comteur
+        $dataAdd = $statisticsRepository->findBy(array('Type' => "ADD"))[0];
+        $dataAdd->setCompteur( $dataAdd->getCompteur() + 1 );
+
+        //  Incrementte et update le compteur
+        $entityManager = $this->getDoctrine()->getManager();
+        $entityManager->persist($dataAdd);
         $entityManager->flush();
 
         
