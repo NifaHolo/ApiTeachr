@@ -111,6 +111,22 @@ class TeachrController extends AbstractController
         ]);
     }
 
+      /**
+     * @Route("/rest/teachr/edit/{id}", name="rest_teachr_edit", methods={"PUT"})
+     */
+    public function rest_edit(Request $request, Teachr $teachr): Response
+    {
+
+
+        $teachr->setPrenom($request->query->get('prenom'));
+
+        $entityManager = $this->getDoctrine()->getManager();
+        $entityManager->persist($teachr);
+        $entityManager->flush();
+
+
+        return $this->json(['status' => 200, "message" =>"Vous avez modifier un utilisateur Teachr","error" => null , "data" => $teachr ]);
+    }
    
 
 }
