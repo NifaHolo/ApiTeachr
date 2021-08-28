@@ -6,6 +6,7 @@ crée un nouveau projet symfony à l'aide de la commande symfony new --full "vot
 
 si vous avez un localhost avec un mot de passe allez dans le dossier .env avec un éditeur de texte puis modifiez la ligne 27:
 DATABASE_URL="mysql://root:@127.0.0.1:3306/apiteachr?serverVersion=5.7" par DATABASE_URL="mysql://root:root@127.0.0.1:3306/apiteachr?serverVersion=5.7"
+
 entrez ensuite dans votre dossier symfony puis démarrer ensuite le serveur à l'aide de la commande Symfony server:start.
 
 
