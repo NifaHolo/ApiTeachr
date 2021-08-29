@@ -1,4 +1,6 @@
 # ApiTeachr
+LE PROJET NE MARCHE PAS SOUS XAMPP
+
 téléchargez le projet puis extrayez le
 
 installez git à l'aide de votre navigateur préféré  https://git-scm.com/download/win
@@ -7,9 +9,9 @@ télécharger Postman à l'aide de votre navigateur préféré https://getcompos
 
 ----------------------------------------------------
 
-Téléchargez WAMP ou XAMPP ou MAMP à l'aide de votre navigateur préféré, https://sourceforge.net/projects/wampserver/files/
+Téléchargez WAMP  ou MAMP à l'aide de votre navigateur préféré, https://sourceforge.net/projects/wampserver/files/
 
-Personellement j'utilise WAMP, si vous n'avez jamais utiliser WAMP/XAMPP/MAMP je vous conseil d'installer WAMP pour suivre le tutoriel si-dessous
+Personellement j'utilise WAMP, si vous n'avez jamais utiliser WAMP/MAMP je vous conseil d'installer WAMP pour suivre le tutoriel si-dessous
 
 lors de l'installation ils vous proposeras de changer de navigateur, choisissez celui que vous préférez.
 
@@ -34,7 +36,7 @@ téléchargez Symfony à l'aide de votre navigateur préféré, https://symfony.
 
 téléchargez Composer à l'aide de votre navigateur préféré https://getcomposer.org/download/
 
-DURANT L'INSTALLATION : à partir du moment ou vous voyez "settings check", cliquez sur "browse" puis allez là ou vous avez installer WAMP ou XAMPP ou MAMP allez dans le dossier (le chemin change en fonction de WAMP/XAMPP/MAMP) WAMP / MAMP / XAMPP puis allez dans "bin" allez dans "php" puis dans "php 7.4.9" et cliquez sur "php" puis ouvrir cliquez ensuite sur next et finissez l'installation.
+DURANT L'INSTALLATION : à partir du moment ou vous voyez "settings check", cliquez sur "browse" puis allez là ou vous avez installer WAMP ou MAMP allez dans le dossier (le chemin change en fonction de WAMP/MAMP) WAMP / MAMP  puis allez dans "bin" allez dans "php" puis dans "php 7.4.9" et cliquez sur "php" puis ouvrir cliquez ensuite sur next et finissez l'installation.
 
 Une fois l'installation de composer terminé, appuyez sur votre touche windows puis tapez CMD et ouvrez l'invite de commande puis tapez la commande "composer" puis appuyez sur votre touche entrée pour vérifié si composer à été installer, s'il est bien installer, beaucoup de texte vont apparaître si vous remontez ce texte il y auras marqué COMPOSER.
 
