@@ -1,16 +1,67 @@
 # ApiTeachr
-importez la base de donnée dans votre phpmyadmin
+téléchargez le projet puis extrayez le
 
-crée un nouveau projet symfony à l'aide de la commande symfony new --full "votre nom de projet" puis importez tout les dossiers/fichers sauf le dossier "public".
+télécharger Postman à l'aide de votre navigateur préféré
+
+----------------------------------------------------
+
+Téléchargez WAMP ou XAMPP ou MAMP à l'aide de votre navigateur préféré,
+
+Personellement j'utilise WAMP, si vous n'avez jamais utiliser WAMP/XAMPP/MAMP je vous conseil d'installer WAMP pour suivre le tutoriel si-dessous
+
+lors de l'installation ils vous proposeras de changer de navigateur, choisissez celui que vous préférez.
+
+appuyez sur votre touche windows de votre clavier puis tapez Wamp et ouvrez le en administrateur (il vous proposeras de le faire tout seul lors de l'ouverture)
+
+Cliquez sur la fleche vers le haut en bas à droite de votre écran et vous verrez un icone de W coloré, s'il est vert au bout de quelques secondes c'est que l'installation c'est bien déroulé si il est jaune ou rouge réessayer de l'installer et si cela ne fonctionne pas regardez sur internet pour votre probleme.
+
+cliquez gauche sur l'icone de W vert puis cliquez sur phpmyadmin, une fenetre de votre navigateur préféré s'ouvriras avec un utilisateur et un mot de passe.
+
+pour le nom d'utilisateur mettez "root" et pour le mot de passe, vous le laisserez vide.
+
+Cliquez sur "Executer", une nouvelle page apparaîtra.Si la page n'as pas changer mettez "root" en mot de passe avec "root" en utilisateur.
+
+Cliquez sur "Nouvelle base de données", puis mettez comme nom de base de donnée "apiteachr" puis cliquez sur "Créer"
+
+Cliquez ensuite sur "apiteachr" sur la geuche de votre fenetre de navigateur puis cliquez sur importer qui est sur le haut de votre fenetre cliquez sur "Parcourir..." puis choisissez le fichier "apiteachr.sql" qui est dans le projet.
+
+---------------------------------------------------------------
 
 
-si vous avez un localhost avec un mot de passe allez dans le dossier .env avec un éditeur de texte puis modifiez la ligne 27:
+téléchargez Symfony à l'aide de votre navigateur préféré,
+
+téléchargez Composer à l'aide de votre navigateur préféré
+
+DURANT L'INSTALLATION : à partir du moment ou vous voyez "settings check", cliquez sur "browse" puis allez là ou vous avez installer WAMP ou XAMPP ou MAMP allez dans le dossier WAMP / MAMP / XAMPP puis allez dans "bin" allez dans "php" puis dans "php 7.4.9" et cliquez sur "php" puis ouvrir cliquez ensuite sur next et finissez l'installation.
+
+Une fois l'installation de composer terminé, appuyez sur votre touche windows puis tapez CMD et ouvrez l'invite de commande puis tapez la commande "composer" puis appuyez sur votre touche entrée pour vérifié si composer à été installer, s'il est bien installer, beaucoup de texte vont apparaître si vous remontez ce texte il y auras marqué COMPOSER.
+
+
+
+---------------------------------------------------------
+
+crée un nouveau dossier puis projet symfony à l'aide de la commande "symfony new --full (votre nom de projet)" à taper dans l'invite de commande si vous avez un erreur "no PHP binaries detected unable" faites la commande "symfony local:php:refresh" puis retaper la commande "symfony new --full "votre nom de projet"" un nouveau projet seras alors crée dans votre dossier.
+
+entrez dans votre projet puis allez dans le projet téléchargé puis allez dans le dossier "api" puis glissez tout les dossiers à part "public" de api vers votre projet.
+
+si vous avez eu un mot de passe dans php my admin, allez dans votre projet puis ouvrez le fichier .env avec un éditeur de texte puis modifiez la ligne 27:
 DATABASE_URL="mysql://root:@127.0.0.1:3306/apiteachr?serverVersion=5.7" par DATABASE_URL="mysql://root:root@127.0.0.1:3306/apiteachr?serverVersion=5.7"
 
-entrez ensuite dans votre dossier symfony puis démarrer ensuite le serveur à l'aide de la commande Symfony server:start.
+entrez ensuite dans votre projet, copiez le chemin de votre projet puis ouvrez l'invite de commande et tapez la commande "cd (collez le chemin n'oubliez pas l'éspace entre cd et le chemin)" symfony puis démarrer ensuite le serveur à l'aide de la commande à tapez dans l'invite de commande "Symfony server:start" (NE TOUCHEZ PLUS A L'INVITE DE COMMANDE).
 
+SI VOUS AVEZ TOUCHEZ A L'INVITE DE COMMANDE : faites dans votre invite de commande "Symfony server:stop" puis refaire la commande "Symfony server:start"
 
-Vous pouvez ensuite regardez les différentes méthodes à l'aide de Postman par exemple en tapant les url suivants:
-GET : (Votre ip de localhost)/rest/teachr/ ou  (Votre ip de localhost)/rest/teachr/view/(une id que vous avez trouver dans le 1er lien)
-POST : (Votre ip de localhost)/rest/teachr/new?prenom=(le prénom que vous voulez)
-PUT : (Votre ip de localhost)/rest/teachr/edit/(l'id que vous souhaitez modifier)?prenom=(le nom que vous voulez)
+Vous avez eu un url dans votre invite de commande copiez cet url et collez le dans votre navigateur préféré pour voir si le serveur a bien été lancé vous aurez un onglet google avec welcome to symfony.
+
+-------------------------------------------------------
+
+Ouvrez postman
+
+cliquez sur passer (en bas de votre fenetre postman)
+
+au milieu de la page, cliquez sur le petit + à coté de l'onglet "overview"
+
+Vous pouvez ensuite regardez les différentes méthodes à l'aide de Postman par exemple en tapant les url suivants (noubliez pas de changer la requete à gauche de l'url dans votre postman !):
+GET : (Votre url que vous avez copié dans l'invite de commande)/rest/teachr/ ou  (Votre ip de localhost)/rest/teachr/view/(une id que vous avez trouver dans le 1er lien)
+POST : (Votre url que vous avez copié dans l'invite de commande)/rest/teachr/new?prenom=(le prénom que vous voulez)   (IL SERAS AJOUTEZ AUTOMATIQUEMENT DANS VOTRE BASE DE DONNEE)
+PUT : (Votre url que vous avez copié dans l'invite de commande)/rest/teachr/edit/(l'id que vous souhaitez modifier)?prenom=(le nom que vous voulez)
