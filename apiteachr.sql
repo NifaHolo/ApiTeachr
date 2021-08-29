@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : ven. 27 août 2021 à 21:23
+-- Généré le : Dim 29 août 2021 à 11:23
 -- Version du serveur :  5.7.31
 -- Version de PHP : 7.3.21
 
@@ -62,8 +62,7 @@ CREATE TABLE IF NOT EXISTS `statistics` (
 --
 
 INSERT INTO `statistics` (`id`, `type`, `compteur`) VALUES
-(1, 'ADD', 4),
-(2, 'UPDATE', 0);
+(1, 'ADD', 14);
 
 -- --------------------------------------------------------
 
@@ -77,7 +76,7 @@ CREATE TABLE IF NOT EXISTS `teachr` (
   `prenom` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Déchargement des données de la table `teachr`
@@ -96,7 +95,8 @@ INSERT INTO `teachr` (`id`, `prenom`, `created_at`) VALUES
 (21, 'Mehdi', '2021-08-27 21:35:47'),
 (22, 'Julien', '2021-08-27 21:38:17'),
 (24, 'omzoemaega', '2021-08-27 21:40:28'),
-(25, 'retest', '2021-08-27 23:02:14');
+(25, 'retest', '2021-08-27 23:02:14'),
+(26, 'Salut', '2021-08-29 13:21:06');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
