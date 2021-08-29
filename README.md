@@ -16,8 +16,7 @@ Lors de l'installation ils vous proposeront de changer de navigateur, choisissez
 
 Appuyez sur votre touche Windows de votre clavier puis tapez Wamp et ouvrez-le en administrateur (il vous proposera de le faire tout seul lors de l'ouverture)
 
-Cliquez sur la flèche vers le haut en bas à droite de votre écran et vous verrez un icone de W coloré, s'il est vert au bout de quelques secondes c'est que l'installation c'est 
-
+Cliquez sur la flèche vers le haut en bas à droite de votre écran et vous verrez un icone de W coloré, s'il est vert au bout de quelques secondes c'est que l'installation s'est 
 bien déroulé s’il est jaune ou rouge réessayer de l'installer et si cela ne fonctionne pas regardez sur internet pour votre problème.
 
 Cliquez gauche sur l'icone de W vert puis cliquez sur phpMyAdmin, une fenêtre de votre navigateur préféré s'ouvriras avec un utilisateur et un mot de passe.
