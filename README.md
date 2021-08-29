@@ -32,7 +32,7 @@ téléchargez Symfony à l'aide de votre navigateur préféré,
 
 téléchargez Composer à l'aide de votre navigateur préféré
 
-DURANT L'INSTALLATION : à partir du moment ou vous voyez "settings check", cliquez sur "browse" puis allez là ou vous avez installer WAMP ou XAMPP ou MAMP allez dans le dossier WAMP / MAMP / XAMPP puis allez dans "bin" allez dans "php" puis dans "php 7.4.9" et cliquez sur "php" puis ouvrir cliquez ensuite sur next et finissez l'installation.
+DURANT L'INSTALLATION : à partir du moment ou vous voyez "settings check", cliquez sur "browse" puis allez là ou vous avez installer WAMP ou XAMPP ou MAMP allez dans le dossier (le chemin change en fonction de WAMP/XAMPP/MAMP) WAMP / MAMP / XAMPP puis allez dans "bin" allez dans "php" puis dans "php 7.4.9" et cliquez sur "php" puis ouvrir cliquez ensuite sur next et finissez l'installation.
 
 Une fois l'installation de composer terminé, appuyez sur votre touche windows puis tapez CMD et ouvrez l'invite de commande puis tapez la commande "composer" puis appuyez sur votre touche entrée pour vérifié si composer à été installer, s'il est bien installer, beaucoup de texte vont apparaître si vous remontez ce texte il y auras marqué COMPOSER.
 
@@ -40,7 +40,7 @@ Une fois l'installation de composer terminé, appuyez sur votre touche windows p
 
 ---------------------------------------------------------
 
-crée un nouveau dossier puis projet symfony à l'aide de la commande "symfony new --full (votre nom de projet)" à taper dans l'invite de commande si vous avez un erreur "no PHP binaries detected unable" faites la commande "symfony local:php:refresh" puis retaper la commande "symfony new --full "votre nom de projet"" un nouveau projet seras alors crée dans votre dossier.
+crée un nouveau dossier puis dans ce nouveau dossier, crée un nouveau projet symfony, pour cela il faut copiez le chemin de votre nouveau dossier et taper dans l'invite de commande "cd (collez le chemin vérifiez bien l'espace) puis crée le nouveau projet symfony à l'aide de la commande à taper dans le cmd "symfony new --full (votre nom de projet)" à taper dans l'invite de commande si vous avez un erreur "no PHP binaries detected unable" faites la commande "symfony local:php:refresh" puis retaper la commande "symfony new --full "votre nom de projet"" un nouveau projet seras alors crée dans votre dossier.
 
 entrez dans votre projet puis allez dans le projet téléchargé puis allez dans le dossier "api" puis glissez tout les dossiers à part "public" de api vers votre projet.
 
