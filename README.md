@@ -58,7 +58,7 @@ entrez ensuite dans votre projet, copiez le chemin de votre projet puis ouvrez l
 
 SI VOUS AVEZ TOUCHEZ A L'INVITE DE COMMANDE : faites dans votre invite de commande "Symfony server:stop" puis refaire la commande "Symfony server:start"
 
-Vous avez eu un url dans votre invite de commande copiez cet url et collez le dans votre navigateur préféré pour voir si le serveur a bien été lancé vous aurez un onglet google avec welcome to symfony.
+Vous avez eu un url dans votre invite de commande qui est surement (http://127.0.0.1:8000  verifier dans votre invite de commande) copiez cet url et collez le dans votre navigateur préféré pour voir si le serveur a bien été lancé vous aurez un onglet google avec welcome to symfony.
 
 -------------------------------------------------------
 
@@ -70,8 +70,8 @@ au milieu de la page, cliquez sur le petit + à coté de l'onglet "overview"
 
 Vous pouvez ensuite regardez les différentes méthodes à l'aide de Postman par exemple en tapant les url suivants (noubliez pas de changer la requete à gauche de l'url dans votre postman !):
 
-GET : (Votre url que vous avez copié dans l'invite de commande)/rest/teachr/ ou  (Votre ip de localhost)/rest/teachr/view/(une id que vous avez trouver dans le 1er lien)
+GET :  http://127.0.0.1:8000/rest/teachr/ ou  (Votre ip de localhost)/rest/teachr/view/(une id que vous avez trouver dans le 1er lien)
 
-POST : (Votre url que vous avez copié dans l'invite de commande)/rest/teachr/new?prenom=(le prénom que vous voulez)   (IL SERAS AJOUTEZ AUTOMATIQUEMENT DANS VOTRE BASE DE DONNEE)
+POST :  http://127.0.0.1:8000/rest/teachr/new?prenom=(le prénom que vous voulez)   (IL SERAS AJOUTEZ AUTOMATIQUEMENT DANS VOTRE BASE DE DONNEE)
 
-PUT : (Votre url que vous avez copié dans l'invite de commande)/rest/teachr/edit/(l'id que vous souhaitez modifier)?prenom=(le nom que vous voulez)
+PUT :  http://127.0.0.1:8000/rest/teachr/edit/(l'id que vous souhaitez modifier)?prenom=(le nom que vous voulez)
