@@ -1,6 +1,8 @@
 # ApiTeachr
 téléchargez le projet puis extrayez le
 
+installez git à l'aide de votre navigateur préféré
+
 télécharger Postman à l'aide de votre navigateur préféré
 
 ----------------------------------------------------
@@ -40,7 +42,12 @@ Une fois l'installation de composer terminé, appuyez sur votre touche windows p
 
 ---------------------------------------------------------
 
-crée un nouveau dossier puis dans ce nouveau dossier, crée un nouveau projet symfony, pour cela il faut copiez le chemin de votre nouveau dossier et taper dans l'invite de commande "cd (collez le chemin vérifiez bien l'espace) puis crée le nouveau projet symfony à l'aide de la commande à taper dans l'invite de commande "symfony new --full (votre nom de projet)" si vous avez un erreur "no PHP binaries detected unable" faites la commande "symfony local:php:refresh" puis retaper la commande "symfony new --full "votre nom de projet"" un nouveau projet seras alors crée dans votre dossier.
+crée un nouveau dossier puis dans ce nouveau dossier, crée un nouveau projet symfony, pour cela il faut copiez le chemin de votre nouveau dossier et taper dans l'invite de commande "cd (collez le chemin vérifiez bien l'espace).
+
+puis crée le nouveau projet symfony à l'aide de la commande à taper dans l'invite de commande "symfony new --full (votre nom de projet)" un nouveau projet seras alors crée dans votre dossier..
+
+si vous avez un erreur "no PHP binaries detected unable" faites la commande "symfony local:php:refresh" puis retaper la commande "symfony new --full (votre nom de projet)" 
+un nouveau projet seras alors crée dans votre dossier.
 
 entrez dans votre projet puis allez dans le projet téléchargé puis allez dans le dossier "api" puis glissez tout les dossiers à part "public" de api vers votre projet.
 
