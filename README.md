@@ -1,13 +1,13 @@
 # ApiTeachr
 téléchargez le projet puis extrayez le
 
-installez git à l'aide de votre navigateur préféré
+installez git à l'aide de votre navigateur préféré  https://git-scm.com/download/win
 
-télécharger Postman à l'aide de votre navigateur préféré
+télécharger Postman à l'aide de votre navigateur préféré https://getcomposer.org/download/
 
 ----------------------------------------------------
 
-Téléchargez WAMP ou XAMPP ou MAMP à l'aide de votre navigateur préféré,
+Téléchargez WAMP ou XAMPP ou MAMP à l'aide de votre navigateur préféré, https://sourceforge.net/projects/wampserver/files/
 
 Personellement j'utilise WAMP, si vous n'avez jamais utiliser WAMP/XAMPP/MAMP je vous conseil d'installer WAMP pour suivre le tutoriel si-dessous
 
@@ -30,9 +30,9 @@ Cliquez ensuite sur "apiteachr" sur la geuche de votre fenetre de navigateur pui
 ---------------------------------------------------------------
 
 
-téléchargez Symfony à l'aide de votre navigateur préféré,
+téléchargez Symfony à l'aide de votre navigateur préféré, https://symfony.com/download
 
-téléchargez Composer à l'aide de votre navigateur préféré
+téléchargez Composer à l'aide de votre navigateur préféré https://getcomposer.org/download/
 
 DURANT L'INSTALLATION : à partir du moment ou vous voyez "settings check", cliquez sur "browse" puis allez là ou vous avez installer WAMP ou XAMPP ou MAMP allez dans le dossier (le chemin change en fonction de WAMP/XAMPP/MAMP) WAMP / MAMP / XAMPP puis allez dans "bin" allez dans "php" puis dans "php 7.4.9" et cliquez sur "php" puis ouvrir cliquez ensuite sur next et finissez l'installation.
 
