@@ -1,6 +1,4 @@
 
-LE PROJET NE MARCHE PAS SOUS XAMPP
-
 Téléchargez le projet puis extrayez le
 
 Installez git à l'aide de votre navigateur préféré https://git-scm.com/download/win
