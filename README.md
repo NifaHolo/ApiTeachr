@@ -69,6 +69,9 @@ cliquez sur passer (en bas de votre fenetre postman)
 au milieu de la page, cliquez sur le petit + à coté de l'onglet "overview"
 
 Vous pouvez ensuite regardez les différentes méthodes à l'aide de Postman par exemple en tapant les url suivants (noubliez pas de changer la requete à gauche de l'url dans votre postman !):
+
 GET : (Votre url que vous avez copié dans l'invite de commande)/rest/teachr/ ou  (Votre ip de localhost)/rest/teachr/view/(une id que vous avez trouver dans le 1er lien)
+
 POST : (Votre url que vous avez copié dans l'invite de commande)/rest/teachr/new?prenom=(le prénom que vous voulez)   (IL SERAS AJOUTEZ AUTOMATIQUEMENT DANS VOTRE BASE DE DONNEE)
+
 PUT : (Votre url que vous avez copié dans l'invite de commande)/rest/teachr/edit/(l'id que vous souhaitez modifier)?prenom=(le nom que vous voulez)
